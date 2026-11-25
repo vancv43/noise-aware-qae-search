@@ -1,0 +1,156 @@
+{
+ "hv n4 vs mopso_ideal": [
+  0.9,
+  0.7,
+  1.0
+ ],
+ "hv n4 vs pso": [
+  0.39,
+  0.16,
+  0.63
+ ],
+ "hv n4 vs nsga2": [
+  0.75,
+  0.45,
+  0.97
+ ],
+ "test main n4 vs mopso_ideal": [
+  0.18,
+  0.0,
+  0.45
+ ],
+ "test main n4 vs pso": [
+  0.55,
+  0.31,
+  0.81
+ ],
+ "test p2=0.05 n4 vs mopso_ideal": [
+  0.92,
+  0.73,
+  1.0
+ ],
+ "test p2=0.05 n4 vs pso": [
+  0.55,
+  0.31,
+  0.81
+ ],
+ "hv n6 vs mopso_ideal": [
+  0.89,
+  0.71,
+  1.0
+ ],
+ "hv n6 vs pso": [
+  0.47,
+  0.22,
+  0.72
+ ],
+ "hv n6 vs nsga2": [
+  0.59,
+  0.31,
+  0.86
+ ],
+ "test main n6 vs mopso_ideal": [
+  0.3,
+  0.0,
+  0.6
+ ],
+ "test main n6 vs pso": [
+  0.83,
+  0.69,
+  0.97
+ ],
+ "test p2=0.05 n6 vs mopso_ideal": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "test p2=0.05 n6 vs pso": [
+  0.83,
+  0.7,
+  0.97
+ ],
+ "pso excl short n4": {
+  "p_raw": 0.57,
+  "a12": 0.44,
+  "pso_median": 0.6339,
+  "na_median": 0.633
+ },
+ "pso excl short n6": {
+  "p_raw": 0.57,
+  "a12": 0.44,
+  "pso_median": 0.5168,
+  "na_median": 0.5161
+ },
+ "fso w=0.05 n4": {
+  "mean_cnot": 9.4,
+  "mean_noisy_val": 0.636
+ },
+ "fso w=0.1 n4": {
+  "mean_cnot": 9.4,
+  "mean_noisy_val": 0.636
+ },
+ "fso w=0.2 n4": {
+  "mean_cnot": 8.0,
+  "mean_noisy_val": 0.633
+ },
+ "fso w=0.05 n6": {
+  "mean_cnot": 15.0,
+  "mean_noisy_val": 0.517
+ },
+ "fso w=0.1 n6": {
+  "mean_cnot": 14.3,
+  "mean_noisy_val": 0.517
+ },
+ "fso w=0.2 n6": {
+  "mean_cnot": 14.3,
+  "mean_noisy_val": 0.517
+ },
+ "late-peak share by lr tercile n4": [
+  0.84,
+  0.39,
+  0.12
+ ],
+ "lr terciles n4": [
+  0.001,
+  0.0092,
+  0.0407,
+  0.1
+ ],
+ "late-peak share by lr tercile n6": [
+  0.86,
+  0.32,
+  0.06
+ ],
+ "lr terciles n6": [
+  0.001,
+  0.0094,
+  0.0371,
+  0.1
+ ],
+ "all-to-all selected n4": {
+  "namopso": 0,
+  "mopso_ideal": 0,
+  "nsga2": 0,
+  "moead": 2,
+  "random": 0,
+  "pso": 0,
+  "hho": 0,
+  "bhho": 0
+ },
+ "all-to-all selected n6": {
+  "namopso": 0,
+  "mopso_ideal": 0,
+  "nsga2": 0,
+  "moead": 2,
+  "random": 0,
+  "pso": 0,
+  "hho": 0,
+  "bhho": 0
+ },
+ "distinct structures per run n4 namopso": 32.5,
+ "distinct structures per run n4 random": 51.6,
+ "distinct structures per run n4 nsga2": 24.6,
+ "distinct structures per run n6 namopso": 35.6,
+ "distinct structures per run n6 random": 51.6,
+ "distinct structures per run n6 nsga2": 23.8
+}

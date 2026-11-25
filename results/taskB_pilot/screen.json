@@ -1,0 +1,218 @@
+{
+ "F0 TFIM h[0.2,2] | n4": {
+  "states": 96,
+  "top4": [
+   0.9255,
+   0.0742,
+   0.0002,
+   0.0
+  ],
+  "const": 0.93,
+  "floor p0.1": 0.718,
+  "oracle k1 p0.1": 0.86,
+  "oracle k2 p0.1": 0.81,
+  "floor p0.2": 0.505,
+  "oracle k1 p0.2": 0.748,
+  "oracle k2 p0.2": 0.654,
+  "margin k1 p0.2": -0.182,
+  "margin k2 p0.2": -0.276
+ },
+ "F0 TFIM h[0.2,2] | n6": {
+  "states": 96,
+  "top4": [
+   0.8613,
+   0.1368,
+   0.0018,
+   0.0001
+  ],
+  "const": 0.893,
+  "floor p0.1": 0.603,
+  "oracle k1 p0.1": 0.803,
+  "oracle k2 p0.1": 0.723,
+  "floor p0.2": 0.355,
+  "oracle k1 p0.2": 0.676,
+  "oracle k2 p0.2": 0.537,
+  "margin k1 p0.2": -0.217,
+  "margin k2 p0.2": -0.356
+ },
+ "F1 TFIM |h| in [0.2,2], both signs | n4": {
+  "states": 96,
+  "top4": [
+   0.7134,
+   0.2509,
+   0.0357,
+   0.0
+  ],
+  "const": 0.742,
+  "floor p0.1": 0.704,
+  "oracle k1 p0.1": 0.835,
+  "oracle k2 p0.1": 0.798,
+  "floor p0.2": 0.485,
+  "oracle k1 p0.2": 0.736,
+  "oracle k2 p0.2": 0.636,
+  "margin k1 p0.2": -0.006,
+  "margin k2 p0.2": -0.106
+ },
+ "F1 TFIM |h| in [0.2,2], both signs | n6": {
+  "states": 96,
+  "top4": [
+   0.6062,
+   0.3098,
+   0.077,
+   0.0068
+  ],
+  "const": 0.602,
+  "floor p0.1": 0.598,
+  "oracle k1 p0.1": 0.727,
+  "oracle k2 p0.1": 0.707,
+  "floor p0.2": 0.349,
+  "oracle k1 p0.2": 0.617,
+  "oracle k2 p0.2": 0.519,
+  "margin k1 p0.2": 0.015,
+  "margin k2 p0.2": -0.083
+ },
+ "F2 mixed-field Ising h[0.2,2], g[-0.5,0.5] | n4": {
+  "states": 96,
+  "top4": [
+   0.686,
+   0.2694,
+   0.0404,
+   0.004
+  ],
+  "const": 0.658,
+  "floor p0.1": 0.749,
+  "oracle k1 p0.1": 0.784,
+  "oracle k2 p0.1": 0.783,
+  "floor p0.2": 0.551,
+  "oracle k1 p0.2": 0.682,
+  "oracle k2 p0.2": 0.616,
+  "margin k1 p0.2": 0.024,
+  "margin k2 p0.2": -0.042
+ },
+ "F2 mixed-field Ising h[0.2,2], g[-0.5,0.5] | n6": {
+  "states": 96,
+  "top4": [
+   0.615,
+   0.2957,
+   0.0754,
+   0.0126
+  ],
+  "const": 0.533,
+  "floor p0.1": 0.655,
+  "oracle k1 p0.1": 0.724,
+  "oracle k2 p0.1": 0.712,
+  "floor p0.2": 0.417,
+  "oracle k1 p0.2": 0.621,
+  "oracle k2 p0.2": 0.523,
+  "margin k1 p0.2": 0.088,
+  "margin k2 p0.2": -0.01
+ },
+ "F3 mixed-field Ising h[0.2,1.2], g[-0.3,0.3] | n4": {
+  "states": 96,
+  "top4": [
+   0.625,
+   0.3588,
+   0.0141,
+   0.002
+  ],
+  "const": 0.582,
+  "floor p0.1": 0.749,
+  "oracle k1 p0.1": 0.832,
+  "oracle k2 p0.1": 0.786,
+  "floor p0.2": 0.55,
+  "oracle k1 p0.2": 0.735,
+  "oracle k2 p0.2": 0.623,
+  "margin k1 p0.2": 0.153,
+  "margin k2 p0.2": 0.041
+ },
+ "F3 mixed-field Ising h[0.2,1.2], g[-0.3,0.3] | n6": {
+  "states": 96,
+  "top4": [
+   0.5529,
+   0.4055,
+   0.0306,
+   0.0105
+  ],
+  "const": 0.435,
+  "floor p0.1": 0.658,
+  "oracle k1 p0.1": 0.795,
+  "oracle k2 p0.1": 0.724,
+  "floor p0.2": 0.42,
+  "oracle k1 p0.2": 0.687,
+  "oracle k2 p0.2": 0.537,
+  "margin k1 p0.2": 0.252,
+  "margin k2 p0.2": 0.102
+ },
+ "F4 XXZ D[-0.5,2], field h[-1,1] | n4": {
+  "states": 96,
+  "top4": [
+   0.7898,
+   0.1094,
+   0.0937,
+   0.0071
+  ],
+  "const": 0.954,
+  "floor p0.1": 0.662,
+  "oracle k1 p0.1": 0.773,
+  "oracle k2 p0.1": 0.719,
+  "floor p0.2": 0.428,
+  "oracle k1 p0.2": 0.651,
+  "oracle k2 p0.2": 0.527,
+  "margin k1 p0.2": -0.303,
+  "margin k2 p0.2": -0.427
+ },
+ "F4 XXZ D[-0.5,2], field h[-1,1] | n6": {
+  "states": 96,
+  "top4": [
+   0.7473,
+   0.1403,
+   0.0623,
+   0.0313
+  ],
+  "const": 0.834,
+  "floor p0.1": 0.54,
+  "oracle k1 p0.1": 0.67,
+  "oracle k2 p0.1": 0.608,
+  "floor p0.2": 0.282,
+  "oracle k1 p0.2": 0.553,
+  "oracle k2 p0.2": 0.409,
+  "margin k1 p0.2": -0.281,
+  "margin k2 p0.2": -0.425
+ },
+ "F5 TFIM h[0.2,2] + XXZ D[-0.5,2] mixture | n4": {
+  "states": 96,
+  "top4": [
+   0.5217,
+   0.444,
+   0.0307,
+   0.0036
+  ],
+  "const": 0.504,
+  "floor p0.1": 0.681,
+  "oracle k1 p0.1": 0.75,
+  "oracle k2 p0.1": 0.757,
+  "floor p0.2": 0.454,
+  "oracle k1 p0.2": 0.641,
+  "oracle k2 p0.2": 0.58,
+  "margin k1 p0.2": 0.137,
+  "margin k2 p0.2": 0.076
+ },
+ "F5 TFIM h[0.2,2] + XXZ D[-0.5,2] mixture | n6": {
+  "states": 96,
+  "top4": [
+   0.5114,
+   0.412,
+   0.0559,
+   0.0196
+  ],
+  "const": 0.398,
+  "floor p0.1": 0.569,
+  "oracle k1 p0.1": 0.703,
+  "oracle k2 p0.1": 0.691,
+  "floor p0.2": 0.316,
+  "oracle k1 p0.2": 0.611,
+  "oracle k2 p0.2": 0.5,
+  "margin k1 p0.2": 0.213,
+  "margin k2 p0.2": 0.102
+ }
+}

@@ -1,0 +1,719 @@
+{
+ "enum records": 576,
+ "grid n4 size": 288,
+ "grid n4 front": [
+  [
+   0.456,
+   0
+  ],
+  [
+   0.64,
+   6
+  ],
+  [
+   0.652,
+   12
+  ]
+ ],
+ "grid n4 best noisy val": 0.652,
+ "grid n4 HV": 0.6434,
+ "n4 random HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9706,
+  0.0105,
+  0.63
+ ],
+ "n4 pso HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9915,
+  0.0041,
+  0.645
+ ],
+ "n4 hho HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9816,
+  0.0065,
+  0.628
+ ],
+ "n4 bhho HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9714,
+  0.0197,
+  0.635
+ ],
+ "n4 nsga2 HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9826,
+  0.0048,
+  0.64
+ ],
+ "n4 moead HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.865,
+  0.0674,
+  0.566
+ ],
+ "n4 mopso_ideal HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.977,
+  0.0082,
+  0.637
+ ],
+ "n4 namopso HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9838,
+  0.0042,
+  0.642
+ ],
+ "grid n4 kendall tau, cluster CI": [
+  0.27,
+  0.17,
+  0.38
+ ],
+ "grid n4 noisy rank of ideal-best circuit": 270,
+ "grid n6 size": 288,
+ "grid n6 front": [
+  [
+   0.369,
+   0
+  ],
+  [
+   0.522,
+   10
+  ],
+  [
+   0.529,
+   20
+  ]
+ ],
+ "grid n6 best noisy val": 0.529,
+ "grid n6 HV": 0.5227,
+ "n6 random HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9724,
+  0.0094,
+  0.515
+ ],
+ "n6 pso HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9874,
+  0.0045,
+  0.521
+ ],
+ "n6 hho HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9821,
+  0.008,
+  0.511
+ ],
+ "n6 bhho HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9794,
+  0.0227,
+  0.52
+ ],
+ "n6 nsga2 HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9863,
+  0.0037,
+  0.522
+ ],
+ "n6 moead HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.8477,
+  0.084,
+  0.46
+ ],
+ "n6 mopso_ideal HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9815,
+  0.0061,
+  0.519
+ ],
+ "n6 namopso HV/gridHV median, IGD+ to grid front median, best noisy val mean": [
+  0.9872,
+  0.0029,
+  0.522
+ ],
+ "grid n6 kendall tau, cluster CI": [
+  0.2,
+  0.08,
+  0.32
+ ],
+ "grid n6 noisy rank of ideal-best circuit": 253,
+ "retest records": 287,
+ "retest not ok": [],
+ "retest max repro": 6.556510925292969e-07,
+ "n4 main mean [state CI]": {
+  "NA cheap": [
+   0.518,
+   0.475,
+   0.56
+  ],
+  "NA maxfid": [
+   0.646,
+   0.635,
+   0.656
+  ],
+  "NA ideal": [
+   0.645,
+   0.633,
+   0.656
+  ],
+  "ideal cheap": [
+   0.597,
+   0.588,
+   0.605
+  ],
+  "ideal ideal": [
+   0.638,
+   0.628,
+   0.648
+  ]
+ },
+ "n4 p2=0.05 mean [state CI]": {
+  "NA cheap": [
+   0.481,
+   0.439,
+   0.519
+  ],
+  "NA maxfid": [
+   0.532,
+   0.523,
+   0.541
+  ],
+  "NA ideal": [
+   0.546,
+   0.536,
+   0.555
+  ],
+  "ideal cheap": [
+   0.36,
+   0.355,
+   0.366
+  ],
+  "ideal ideal": [
+   0.516,
+   0.507,
+   0.524
+  ]
+ },
+ "n4 sherbrooke mean [state CI]": {
+  "NA cheap": [
+   0.536,
+   0.488,
+   0.581
+  ],
+  "NA maxfid": [
+   0.674,
+   0.663,
+   0.684
+  ],
+  "NA ideal": [
+   0.671,
+   0.659,
+   0.682
+  ],
+  "ideal cheap": [
+   0.652,
+   0.641,
+   0.661
+  ],
+  "ideal ideal": [
+   0.668,
+   0.658,
+   0.677
+  ]
+ },
+ "n4 ood_main mean [state CI]": {
+  "NA cheap": [
+   0.735,
+   0.732,
+   0.737
+  ],
+  "NA maxfid": [
+   0.641,
+   0.639,
+   0.643
+  ],
+  "NA ideal": [
+   0.651,
+   0.649,
+   0.652
+  ],
+  "ideal cheap": [
+   0.573,
+   0.571,
+   0.575
+  ],
+  "ideal ideal": [
+   0.625,
+   0.622,
+   0.627
+  ]
+ },
+ "n4 ideal mean [state CI]": {
+  "NA cheap": [
+   0.561,
+   0.513,
+   0.607
+  ],
+  "NA maxfid": [
+   0.73,
+   0.718,
+   0.74
+  ],
+  "NA ideal": [
+   0.72,
+   0.708,
+   0.732
+  ],
+  "ideal cheap": [
+   0.775,
+   0.764,
+   0.786
+  ],
+  "ideal ideal": [
+   0.723,
+   0.713,
+   0.733
+  ]
+ },
+ "n4 floors": {
+  "test": 0.493,
+  "ood": 0.551
+ },
+ "n4 sherbrooke NA maxfid vs": {
+  "ideal cheap": [
+   0.039,
+   0.9
+  ],
+  "ideal ideal": [
+   0.039,
+   0.9
+  ],
+  "NA cheap": [
+   0.006,
+   0.86
+  ]
+ },
+ "n4 ood_main NA maxfid vs": {
+  "ideal cheap": [
+   0.006,
+   0.98
+  ],
+  "ideal ideal": [
+   0.232,
+   0.72
+  ],
+  "NA cheap": [
+   0.006,
+   0.03
+  ]
+ },
+ "n4 sherbrooke all methods (cheap rule)": {
+  "random": 0.547,
+  "pso": 0.585,
+  "hho": 0.56,
+  "bhho": 0.572,
+  "nsga2": 0.518,
+  "moead": 0.537,
+  "mopso_ideal": 0.652,
+  "namopso": 0.536
+ },
+ "n4 ood_main all methods (cheap rule)": {
+  "random": 0.701,
+  "pso": 0.7,
+  "hho": 0.672,
+  "bhho": 0.634,
+  "nsga2": 0.742,
+  "moead": 0.618,
+  "mopso_ideal": 0.573,
+  "namopso": 0.735
+ },
+ "n6 main mean [state CI]": {
+  "NA cheap": [
+   0.442,
+   0.398,
+   0.485
+  ],
+  "NA maxfid": [
+   0.532,
+   0.513,
+   0.549
+  ],
+  "NA ideal": [
+   0.534,
+   0.514,
+   0.552
+  ],
+  "ideal cheap": [
+   0.498,
+   0.486,
+   0.51
+  ],
+  "ideal ideal": [
+   0.526,
+   0.509,
+   0.541
+  ]
+ },
+ "n6 p2=0.05 mean [state CI]": {
+  "NA cheap": [
+   0.387,
+   0.347,
+   0.425
+  ],
+  "NA maxfid": [
+   0.389,
+   0.375,
+   0.402
+  ],
+  "NA ideal": [
+   0.413,
+   0.397,
+   0.428
+  ],
+  "ideal cheap": [
+   0.264,
+   0.258,
+   0.271
+  ],
+  "ideal ideal": [
+   0.381,
+   0.369,
+   0.392
+  ]
+ },
+ "n6 sherbrooke mean [state CI]": {
+  "NA cheap": [
+   0.469,
+   0.423,
+   0.514
+  ],
+  "NA maxfid": [
+   0.569,
+   0.55,
+   0.587
+  ],
+  "NA ideal": [
+   0.569,
+   0.548,
+   0.587
+  ],
+  "ideal cheap": [
+   0.551,
+   0.537,
+   0.564
+  ],
+  "ideal ideal": [
+   0.565,
+   0.548,
+   0.58
+  ]
+ },
+ "n6 ood_main mean [state CI]": {
+  "NA cheap": [
+   0.647,
+   0.645,
+   0.649
+  ],
+  "NA maxfid": [
+   0.509,
+   0.505,
+   0.512
+  ],
+  "NA ideal": [
+   0.528,
+   0.525,
+   0.531
+  ],
+  "ideal cheap": [
+   0.414,
+   0.411,
+   0.417
+  ],
+  "ideal ideal": [
+   0.497,
+   0.494,
+   0.5
+  ]
+ },
+ "n6 ideal mean [state CI]": {
+  "NA cheap": [
+   0.51,
+   0.461,
+   0.558
+  ],
+  "NA maxfid": [
+   0.647,
+   0.625,
+   0.668
+  ],
+  "NA ideal": [
+   0.637,
+   0.615,
+   0.659
+  ],
+  "ideal cheap": [
+   0.681,
+   0.664,
+   0.698
+  ],
+  "ideal ideal": [
+   0.642,
+   0.622,
+   0.659
+  ]
+ },
+ "n6 floors": {
+  "test": 0.352,
+  "ood": 0.41
+ },
+ "n6 sherbrooke NA maxfid vs": {
+  "ideal cheap": [
+   0.006,
+   1.0
+  ],
+  "ideal ideal": [
+   0.014,
+   0.81
+  ],
+  "NA cheap": [
+   0.006,
+   0.95
+  ]
+ },
+ "n6 ood_main NA maxfid vs": {
+  "ideal cheap": [
+   0.006,
+   0.99
+  ],
+  "ideal ideal": [
+   0.322,
+   0.65
+  ],
+  "NA cheap": [
+   0.006,
+   0.19
+  ]
+ },
+ "n6 sherbrooke all methods (cheap rule)": {
+  "random": 0.49,
+  "pso": 0.42,
+  "hho": 0.495,
+  "bhho": 0.492,
+  "nsga2": 0.508,
+  "moead": 0.462,
+  "mopso_ideal": 0.551,
+  "namopso": 0.469
+ },
+ "n6 ood_main all methods (cheap rule)": {
+  "random": 0.588,
+  "pso": 0.689,
+  "hho": 0.545,
+  "bhho": 0.505,
+  "nsga2": 0.549,
+  "moead": 0.542,
+  "mopso_ideal": 0.414,
+  "namopso": 0.647
+ },
+ "HEA n4/ring/p1": {
+  "lr": 0.1,
+  "f2": 8,
+  "main": [
+   0.563,
+   0.0
+  ],
+  "p2=0.05": [
+   0.456,
+   0.0
+  ],
+  "sherbrooke": [
+   0.586,
+   0.0
+  ],
+  "ideal": [
+   0.636,
+   0.0
+  ]
+ },
+ "HEA n4/ring/p2": {
+  "lr": 0.1,
+  "f2": 16,
+  "main": [
+   0.517,
+   0.003
+  ],
+  "p2=0.05": [
+   0.35,
+   0.003
+  ],
+  "sherbrooke": [
+   0.543,
+   0.003
+  ],
+  "ideal": [
+   0.619,
+   0.002
+  ]
+ },
+ "HEA n4/ring/p3": {
+  "lr": 0.1,
+  "f2": 24,
+  "main": [
+   0.535,
+   0.014
+  ],
+  "p2=0.05": [
+   0.287,
+   0.005
+  ],
+  "sherbrooke": [
+   0.595,
+   0.016
+  ],
+  "ideal": [
+   0.75,
+   0.027
+  ]
+ },
+ "HEA n6/ring/p1": {
+  "lr": 0.1,
+  "f2": 12,
+  "main": [
+   0.422,
+   0.001
+  ],
+  "p2=0.05": [
+   0.314,
+   0.001
+  ],
+  "sherbrooke": [
+   0.449,
+   0.001
+  ],
+  "ideal": [
+   0.509,
+   0.001
+  ]
+ },
+ "HEA n6/ring/p2": {
+  "lr": 0.1,
+  "f2": 24,
+  "main": [
+   0.398,
+   0.001
+  ],
+  "p2=0.05": [
+   0.234,
+   0.0
+  ],
+  "sherbrooke": [
+   0.428,
+   0.001
+  ],
+  "ideal": [
+   0.514,
+   0.001
+  ]
+ },
+ "HEA n6/ring/p3": {
+  "lr": 0.1,
+  "f2": 36,
+  "main": [
+   0.381,
+   0.001
+  ],
+  "p2=0.05": [
+   0.175,
+   0.0
+  ],
+  "sherbrooke": [
+   0.415,
+   0.001
+  ],
+  "ideal": [
+   0.531,
+   0.001
+  ]
+ },
+ "oracle n4/oracle": {
+  "test_ideal": {
+   "p_in=0.1": 0.853,
+   "p_in=0.2": 0.737,
+   "p_in=0.3": 0.649
+  },
+  "ood_ideal": 0.753,
+  "top2_share": 0.9998
+ },
+ "oracle n6/oracle": {
+  "test_ideal": {
+   "p_in=0.1": 0.797,
+   "p_in=0.2": 0.67,
+   "p_in=0.3": 0.592
+  },
+  "ood_ideal": 0.679,
+  "top2_share": 0.9982
+ },
+ "ntrain records": 40,
+ "n4 NA maxfid main noisy-trained vs ideal-trained": [
+  0.644,
+  0.646,
+  0.4316,
+  0.45
+ ],
+ "n4 NA maxfid p2=0.05 noisy-trained vs ideal-trained": [
+  0.532,
+  0.532,
+  0.4316,
+  0.6
+ ],
+ "n4 NA maxfid sherbrooke noisy-trained vs ideal-trained": [
+  0.671,
+  0.674,
+  0.4316,
+  0.48
+ ],
+ "n4 ideal cheap main noisy-trained vs ideal-trained": [
+  0.611,
+  0.597,
+  0.0273,
+  0.65
+ ],
+ "n4 ideal cheap p2=0.05 noisy-trained vs ideal-trained": [
+  0.379,
+  0.36,
+  0.0273,
+  0.58
+ ],
+ "n4 ideal cheap sherbrooke noisy-trained vs ideal-trained": [
+  0.656,
+  0.652,
+  0.375,
+  0.57
+ ],
+ "n6 NA maxfid main noisy-trained vs ideal-trained": [
+  0.535,
+  0.532,
+  0.002,
+  0.65
+ ],
+ "n6 NA maxfid p2=0.05 noisy-trained vs ideal-trained": [
+  0.391,
+  0.389,
+  0.002,
+  0.65
+ ],
+ "n6 NA maxfid sherbrooke noisy-trained vs ideal-trained": [
+  0.572,
+  0.569,
+  0.002,
+  0.72
+ ],
+ "n6 ideal cheap main noisy-trained vs ideal-trained": [
+  0.507,
+  0.498,
+  0.002,
+  0.71
+ ],
+ "n6 ideal cheap p2=0.05 noisy-trained vs ideal-trained": [
+  0.271,
+  0.264,
+  0.002,
+  0.65
+ ],
+ "n6 ideal cheap sherbrooke noisy-trained vs ideal-trained": [
+  0.556,
+  0.551,
+  0.0039,
+  0.7
+ ],
+ "swap-test SE bound over 64 states, 1024 shots/state": 0.0039,
+ "swap-test SE bound over 64 states, 8192 shots/state": 0.0014
+}

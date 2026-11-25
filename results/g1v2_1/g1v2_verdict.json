@@ -1,0 +1,128 @@
+{
+ "n_records": 82,
+ "failed": [],
+ "G1a": {
+  "G1a/n4/900": [
+   0.7684,
+   0.5374,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ],
+  "G1a/n4/901": [
+   0.7694,
+   0.5374,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ],
+  "G1a/n4/902": [
+   0.768,
+   0.5374,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ],
+  "G1a/n6/900": [
+   0.6853,
+   0.3954,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ],
+  "G1a/n6/901": [
+   0.6807,
+   0.3954,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ],
+  "G1a/n6/902": [
+   0.6903,
+   0.3954,
+   {
+    "underfit": false,
+    "early_peak": false
+   }
+  ]
+ },
+ "G1a_pass": true,
+ "G1c": {
+  "n4": {
+   "n_genomes": 30,
+   "front": [
+    [
+     0.5573,
+     0
+    ],
+    [
+     0.506,
+     8
+    ],
+    [
+     0.4041,
+     16
+    ]
+   ],
+   "n_nondominated": 3,
+   "spearman": -0.177,
+   "pass": true,
+   "best_noisy_fid": 0.5959
+  },
+  "n6": {
+   "n_genomes": 30,
+   "front": [
+    [
+     0.6458,
+     0
+    ],
+    [
+     0.6397,
+     12
+    ],
+    [
+     0.5793,
+     24
+    ],
+    [
+     0.4918,
+     30
+    ]
+   ],
+   "n_nondominated": 4,
+   "spearman": 0.23,
+   "pass": true,
+   "best_noisy_fid": 0.5082
+  }
+ },
+ "G1d": {
+  "n4": {
+   "within_sd": 0.0036,
+   "between_sd": 0.0595,
+   "pass": true
+  },
+  "n6": {
+   "within_sd": 0.0049,
+   "between_sd": 0.0775,
+   "pass": true
+  }
+ },
+ "G1e": {
+  "n4": {
+   "mean_s": 11.7,
+   "max_s": 21.2
+  },
+  "n6": {
+   "mean_s": 25.1,
+   "max_s": 44.4
+  }
+ },
+ "G1c_pass": true,
+ "G1d_pass": true,
+ "G1e_full_search_cpu_h": 81.8
+}

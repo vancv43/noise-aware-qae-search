@@ -1,0 +1,134 @@
+{
+ "4": {
+  "optimum_val": 0.9197350288978839,
+  "optimum_test": 0.9174969610973958,
+  "best_ideal": {
+   "key": "n4/all/p6/lr0.03",
+   "val": 0.9217993021011353,
+   "test": 0.9217202663421631,
+   "gap_to_opt_val": -0.00206427320325131
+  },
+  "best_noisy": {
+   "key": "n4/linear/p2/lr0.1",
+   "val_noisy": 0.7688196897506714,
+   "cnot": 6
+  },
+  "n_within_0.02_of_opt": 30,
+  "by_depth": {
+   "1": {
+    "best_val_ideal": 0.8644757270812988,
+    "best_val_noisy": 0.7556137442588806,
+    "cnot_range": [
+     3,
+     6
+    ]
+   },
+   "2": {
+    "best_val_ideal": 0.9205291271209717,
+    "best_val_noisy": 0.7688196897506714,
+    "cnot_range": [
+     6,
+     12
+    ]
+   },
+   "3": {
+    "best_val_ideal": 0.9213447570800781,
+    "best_val_noisy": 0.7302075624465942,
+    "cnot_range": [
+     9,
+     18
+    ]
+   },
+   "4": {
+    "best_val_ideal": 0.9212184548377991,
+    "best_val_noisy": 0.7093766927719116,
+    "cnot_range": [
+     12,
+     24
+    ]
+   },
+   "5": {
+    "best_val_ideal": 0.9215922355651855,
+    "best_val_noisy": 0.6829344034194946,
+    "cnot_range": [
+     15,
+     30
+    ]
+   },
+   "6": {
+    "best_val_ideal": 0.9217993021011353,
+    "best_val_noisy": 0.6504956483840942,
+    "cnot_range": [
+     18,
+     36
+    ]
+   }
+  }
+ },
+ "6": {
+  "optimum_val": 0.8542486559121977,
+  "optimum_test": 0.8534301688145035,
+  "best_ideal": {
+   "key": "n6/all/p6/lr0.1",
+   "val": 0.8557528257369995,
+   "test": 0.8577080965042114,
+   "gap_to_opt_val": -0.0015041698248018376
+  },
+  "best_noisy": {
+   "key": "n6/linear/p2/lr0.1",
+   "val_noisy": 0.6283714771270752,
+   "cnot": 10
+  },
+  "n_within_0.02_of_opt": 23,
+  "by_depth": {
+   "1": {
+    "best_val_ideal": 0.750462532043457,
+    "best_val_noisy": 0.6121740937232971,
+    "cnot_range": [
+     5,
+     15
+    ]
+   },
+   "2": {
+    "best_val_ideal": 0.8433688282966614,
+    "best_val_noisy": 0.6283714771270752,
+    "cnot_range": [
+     10,
+     30
+    ]
+   },
+   "3": {
+    "best_val_ideal": 0.8544812202453613,
+    "best_val_noisy": 0.5986159443855286,
+    "cnot_range": [
+     15,
+     45
+    ]
+   },
+   "4": {
+    "best_val_ideal": 0.8504199385643005,
+    "best_val_noisy": 0.5703954696655273,
+    "cnot_range": [
+     20,
+     60
+    ]
+   },
+   "5": {
+    "best_val_ideal": 0.8551756143569946,
+    "best_val_noisy": 0.5258556604385376,
+    "cnot_range": [
+     25,
+     75
+    ]
+   },
+   "6": {
+    "best_val_ideal": 0.8557528257369995,
+    "best_val_noisy": 0.4879990220069885,
+    "cnot_range": [
+     30,
+     90
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "H1 max |ext(idle off) - reference|": 2.8075120239251973e-16,
+ "H2 max |ext(thermal off) - reference|": 4.465043819946771e-16,
+ "H3 schedule valid": true,
+ "H5 hand case |diff|": 0.0,
+ "H4 trace err": 7.771561172376096e-15,
+ "H4 herm err": 5.96906223549092e-17,
+ "H4 min eig": 0.011660198548891098,
+ "H6 fixed input dependence": 2.817564680958096e-16,
+ "H7 spearman(drop, CNOT)": -0.3626866435886655,
+ "H7 drop min/max": [
+  -0.007534854910217201,
+  0.01238223529164656
+ ]
+}

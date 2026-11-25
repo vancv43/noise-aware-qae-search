@@ -1,0 +1,712 @@
+{
+ "confirm records": 287,
+ "not ok": [],
+ "max repro": 6.556510925292969e-07,
+ "n4 floors": {
+  "test": 0.493,
+  "fresh": 0.491
+ },
+ "n4 fresh_main": {
+  "NA cheap": [
+   0.512,
+   0.485,
+   0.54,
+   "2/10"
+  ],
+  "NA ideal": [
+   0.648,
+   0.641,
+   0.655,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.65,
+   0.644,
+   0.656,
+   "10/10"
+  ],
+  "MI cheap": [
+   0.601,
+   0.596,
+   0.607,
+   "10/10"
+  ],
+  "MI ideal": [
+   0.642,
+   0.636,
+   0.648,
+   "10/10"
+  ],
+  "MI maxfid": [
+   0.425,
+   0.423,
+   0.428,
+   "1/10"
+  ]
+ },
+ "n4 fresh_p2=0.05": {
+  "NA cheap": [
+   0.476,
+   0.448,
+   0.501,
+   "2/10"
+  ],
+  "NA ideal": [
+   0.548,
+   0.542,
+   0.554,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.535,
+   0.529,
+   0.54,
+   "8/10"
+  ],
+  "MI cheap": [
+   0.363,
+   0.36,
+   0.366,
+   "0/10"
+  ],
+  "MI ideal": [
+   0.519,
+   0.514,
+   0.524,
+   "8/10"
+  ],
+  "MI maxfid": [
+   0.142,
+   0.142,
+   0.143,
+   "0/10"
+  ]
+ },
+ "n4 fresh_sherbrooke": {
+  "NA cheap": [
+   0.53,
+   0.5,
+   0.559,
+   "10/10"
+  ],
+  "NA ideal": [
+   0.674,
+   0.667,
+   0.681,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.678,
+   0.671,
+   0.684,
+   "10/10"
+  ],
+  "MI cheap": [
+   0.657,
+   0.651,
+   0.662,
+   "10/10"
+  ],
+  "MI ideal": [
+   0.672,
+   0.666,
+   0.678,
+   "10/10"
+  ],
+  "MI maxfid": [
+   0.513,
+   0.51,
+   0.517,
+   "7/10"
+  ]
+ },
+ "n4 PRIMARY fresh main": {
+  "H1 vs MI cheap": {
+   "p_raw": 0.0059,
+   "p_holm": 0.0117,
+   "a12": 0.9
+  },
+  "H2 vs MI ideal": {
+   "p_raw": 0.0059,
+   "p_holm": 0.0117,
+   "a12": 0.92
+  }
+ },
+ "n4 secondary fresh_p2=0.05 NA maxfid A12 vs MI cheap/ideal": [
+  0.98,
+  0.76
+ ],
+ "n4 secondary fresh_sherbrooke NA maxfid A12 vs MI cheap/ideal": [
+  0.84,
+  0.79
+ ],
+ "n4 R1 all MO fresh": {
+  "random": [
+   0.638,
+   0.499
+  ],
+  "nsga2": [
+   0.648,
+   0.534
+  ],
+  "moead": [
+   0.575,
+   0.379
+  ],
+  "mopso_ideal": [
+   0.425,
+   0.142
+  ],
+  "namopso": [
+   0.65,
+   0.535
+  ]
+ },
+ "n4 above-baseline fresh main": {
+  "random/cheap": 4,
+  "random/ideal": 10,
+  "random/maxfid": 10,
+  "nsga2/cheap": 1,
+  "nsga2/ideal": 10,
+  "nsga2/maxfid": 10,
+  "moead/cheap": 5,
+  "moead/ideal": 3,
+  "moead/maxfid": 10,
+  "mopso_ideal/cheap": 10,
+  "mopso_ideal/ideal": 10,
+  "mopso_ideal/maxfid": 1,
+  "namopso/cheap": 2,
+  "namopso/ideal": 10,
+  "namopso/maxfid": 10
+ },
+ "n4 R2 pre-declared fresh main": {
+  "random": [
+   0.523,
+   0.532,
+   6
+  ],
+  "pso": [
+   0.559,
+   0.57,
+   5
+  ],
+  "hho": [
+   0.537,
+   0.544,
+   5
+  ],
+  "bhho": [
+   0.548,
+   0.553,
+   4
+  ],
+  "nsga2": [
+   0.495,
+   0.507,
+   9
+  ],
+  "moead": [
+   0.511,
+   0.518,
+   5
+  ],
+  "mopso_ideal": [
+   0.601,
+   0.601,
+   0
+  ],
+  "namopso": [
+   0.512,
+   0.523,
+   8
+  ]
+ },
+ "n4 iso NA cheap": {
+  "test_main": 0.518,
+  "p2only=0.005": 0.52,
+  "p2only=0.02": 0.514,
+  "p2only=0.05": 0.504,
+  "p1only=1e-4": 0.524,
+  "p1only=5e-3": 0.494
+ },
+ "n4 iso NA maxfid": {
+  "test_main": 0.646,
+  "p2only=0.005": 0.658,
+  "p2only=0.02": 0.625,
+  "p2only=0.05": 0.563,
+  "p1only=1e-4": 0.655,
+  "p1only=5e-3": 0.609
+ },
+ "n4 iso MI cheap": {
+  "test_main": 0.597,
+  "p2only=0.005": 0.626,
+  "p2only=0.02": 0.543,
+  "p2only=0.05": 0.413,
+  "p1only=1e-4": 0.619,
+  "p1only=5e-3": 0.511
+ },
+ "n4 iso MI ideal": {
+  "test_main": 0.638,
+  "p2only=0.005": 0.649,
+  "p2only=0.02": 0.617,
+  "p2only=0.05": 0.557,
+  "p1only=1e-4": 0.65,
+  "p1only=5e-3": 0.589
+ },
+ "n4 product circuits max change p2only 0.005->0.05": 0.0,
+ "n4 p2-only loss vs CNOT spearman": 0.97,
+ "n6 floors": {
+  "test": 0.352,
+  "fresh": 0.348
+ },
+ "n6 fresh_main": {
+  "NA cheap": [
+   0.433,
+   0.405,
+   0.462,
+   "10/10"
+  ],
+  "NA ideal": [
+   0.538,
+   0.525,
+   0.549,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.538,
+   0.527,
+   0.549,
+   "10/10"
+  ],
+  "MI cheap": [
+   0.509,
+   0.5,
+   0.516,
+   "10/10"
+  ],
+  "MI ideal": [
+   0.531,
+   0.521,
+   0.54,
+   "10/10"
+  ],
+  "MI maxfid": [
+   0.279,
+   0.274,
+   0.284,
+   "3/10"
+  ]
+ },
+ "n6 fresh_p2=0.05": {
+  "NA cheap": [
+   0.378,
+   0.351,
+   0.404,
+   "10/10"
+  ],
+  "NA ideal": [
+   0.416,
+   0.406,
+   0.424,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.393,
+   0.384,
+   0.4,
+   "7/10"
+  ],
+  "MI cheap": [
+   0.269,
+   0.265,
+   0.273,
+   "0/10"
+  ],
+  "MI ideal": [
+   0.384,
+   0.377,
+   0.391,
+   "8/10"
+  ],
+  "MI maxfid": [
+   0.072,
+   0.071,
+   0.072,
+   "0/10"
+  ]
+ },
+ "n6 fresh_sherbrooke": {
+  "NA cheap": [
+   0.459,
+   0.427,
+   0.491,
+   "10/10"
+  ],
+  "NA ideal": [
+   0.573,
+   0.56,
+   0.586,
+   "10/10"
+  ],
+  "NA maxfid": [
+   0.576,
+   0.564,
+   0.587,
+   "10/10"
+  ],
+  "MI cheap": [
+   0.562,
+   0.553,
+   0.571,
+   "10/10"
+  ],
+  "MI ideal": [
+   0.571,
+   0.561,
+   0.58,
+   "10/10"
+  ],
+  "MI maxfid": [
+   0.343,
+   0.337,
+   0.347,
+   "3/10"
+  ]
+ },
+ "n6 PRIMARY fresh main": {
+  "H1 vs MI cheap": {
+   "p_raw": 0.002,
+   "p_holm": 0.0039,
+   "a12": 1.0
+  },
+  "H2 vs MI ideal": {
+   "p_raw": 0.0059,
+   "p_holm": 0.0059,
+   "a12": 0.86
+  }
+ },
+ "n6 secondary fresh_p2=0.05 NA maxfid A12 vs MI cheap/ideal": [
+  1.0,
+  0.68
+ ],
+ "n6 secondary fresh_sherbrooke NA maxfid A12 vs MI cheap/ideal": [
+  0.78,
+  0.84
+ ],
+ "n6 R1 all MO fresh": {
+  "random": [
+   0.529,
+   0.344
+  ],
+  "nsga2": [
+   0.537,
+   0.354
+  ],
+  "moead": [
+   0.474,
+   0.216
+  ],
+  "mopso_ideal": [
+   0.279,
+   0.072
+  ],
+  "namopso": [
+   0.538,
+   0.393
+  ]
+ },
+ "n6 above-baseline fresh main": {
+  "random/cheap": 10,
+  "random/ideal": 10,
+  "random/maxfid": 10,
+  "nsga2/cheap": 10,
+  "nsga2/ideal": 10,
+  "nsga2/maxfid": 10,
+  "moead/cheap": 10,
+  "moead/ideal": 10,
+  "moead/maxfid": 10,
+  "mopso_ideal/cheap": 10,
+  "mopso_ideal/ideal": 10,
+  "mopso_ideal/maxfid": 3,
+  "namopso/cheap": 10,
+  "namopso/ideal": 10,
+  "namopso/maxfid": 10
+ },
+ "n6 R2 pre-declared fresh main": {
+  "random": [
+   0.456,
+   0.456,
+   0
+  ],
+  "pso": [
+   0.381,
+   0.382,
+   1
+  ],
+  "hho": [
+   0.461,
+   0.461,
+   0
+  ],
+  "bhho": [
+   0.46,
+   0.46,
+   0
+  ],
+  "nsga2": [
+   0.477,
+   0.477,
+   0
+  ],
+  "moead": [
+   0.428,
+   0.428,
+   0
+  ],
+  "mopso_ideal": [
+   0.509,
+   0.509,
+   0
+  ],
+  "namopso": [
+   0.433,
+   0.433,
+   0
+  ]
+ },
+ "n6 iso NA cheap": {
+  "test_main": 0.442,
+  "p2only=0.005": 0.446,
+  "p2only=0.02": 0.435,
+  "p2only=0.05": 0.416,
+  "p1only=1e-4": 0.45,
+  "p1only=5e-3": 0.411
+ },
+ "n6 iso NA maxfid": {
+  "test_main": 0.532,
+  "p2only=0.005": 0.548,
+  "p2only=0.02": 0.502,
+  "p2only=0.05": 0.423,
+  "p1only=1e-4": 0.543,
+  "p1only=5e-3": 0.488
+ },
+ "n6 iso MI cheap": {
+  "test_main": 0.498,
+  "p2only=0.005": 0.529,
+  "p2only=0.02": 0.443,
+  "p2only=0.05": 0.315,
+  "p1only=1e-4": 0.521,
+  "p1only=5e-3": 0.41
+ },
+ "n6 iso MI ideal": {
+  "test_main": 0.526,
+  "p2only=0.005": 0.54,
+  "p2only=0.02": 0.498,
+  "p2only=0.05": 0.424,
+  "p1only=1e-4": 0.539,
+  "p1only=5e-3": 0.469
+ },
+ "n6 product circuits max change p2only 0.005->0.05": 0.0,
+ "n6 p2-only loss vs CNOT spearman": 0.95,
+ "seed records": 234,
+ "n4 seeds NA cheap test_main": {
+  "orig_mean": 0.518,
+  "fresh_seed_mean": 0.517,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.068,
+  "max_abs_dev": 0.004
+ },
+ "n4 seeds NA ideal test_main": {
+  "orig_mean": 0.645,
+  "fresh_seed_mean": 0.644,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.002,
+  "max_abs_dev": 0.004
+ },
+ "n4 seeds NA maxfid test_main": {
+  "orig_mean": 0.646,
+  "fresh_seed_mean": 0.643,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.004,
+  "max_abs_dev": 0.017
+ },
+ "n4 seeds MI cheap test_main": {
+  "orig_mean": 0.597,
+  "fresh_seed_mean": 0.589,
+  "within_config_sd": 0.013,
+  "across_run_sd": 0.035,
+  "max_abs_dev": 0.031
+ },
+ "n4 seeds MI ideal test_main": {
+  "orig_mean": 0.638,
+  "fresh_seed_mean": 0.637,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.005,
+  "max_abs_dev": 0.004
+ },
+ "n4 seed-avg NA maxfid vs MI cheap": {
+  "p_raw": 0.002,
+  "a12": 0.98,
+  "means": [
+   0.643,
+   0.589
+  ]
+ },
+ "n4 seed-avg NA maxfid vs MI ideal": {
+  "p_raw": 0.0078,
+  "a12": 0.82,
+  "means": [
+   0.643,
+   0.637
+  ]
+ },
+ "n4 seed-avg fresh p2=0.05 NA maxfid vs MI cheap": [
+  0.533,
+  0.362,
+  0.98
+ ],
+ "n6 seeds NA cheap test_main": {
+  "orig_mean": 0.442,
+  "fresh_seed_mean": 0.443,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.061,
+  "max_abs_dev": 0.003
+ },
+ "n6 seeds NA ideal test_main": {
+  "orig_mean": 0.534,
+  "fresh_seed_mean": 0.532,
+  "within_config_sd": 0.002,
+  "across_run_sd": 0.003,
+  "max_abs_dev": 0.006
+ },
+ "n6 seeds NA maxfid test_main": {
+  "orig_mean": 0.532,
+  "fresh_seed_mean": 0.528,
+  "within_config_sd": 0.002,
+  "across_run_sd": 0.005,
+  "max_abs_dev": 0.008
+ },
+ "n6 seeds MI cheap test_main": {
+  "orig_mean": 0.498,
+  "fresh_seed_mean": 0.496,
+  "within_config_sd": 0.003,
+  "across_run_sd": 0.03,
+  "max_abs_dev": 0.017
+ },
+ "n6 seeds MI ideal test_main": {
+  "orig_mean": 0.526,
+  "fresh_seed_mean": 0.525,
+  "within_config_sd": 0.001,
+  "across_run_sd": 0.007,
+  "max_abs_dev": 0.006
+ },
+ "n6 seed-avg NA maxfid vs MI cheap": {
+  "p_raw": 0.002,
+  "a12": 0.98,
+  "means": [
+   0.528,
+   0.496
+  ]
+ },
+ "n6 seed-avg NA maxfid vs MI ideal": {
+  "p_raw": 0.2324,
+  "a12": 0.68,
+  "means": [
+   0.528,
+   0.525
+  ]
+ },
+ "n6 seed-avg fresh p2=0.05 NA maxfid vs MI cheap": [
+  0.39,
+  0.268,
+  0.98
+ ],
+ "fixed n6/fixed": {
+  "best": "linear/p2/lr0.1",
+  "cnot_full": 20,
+  "top3": [
+   0.86137,
+   0.13684,
+   0.00169
+  ],
+  "ideal_const": {
+   "test": 0.8534,
+   "fresh": 0.8735
+  },
+  "test_main": [
+   0.625,
+   0.004
+  ],
+  "fresh_main": [
+   0.64,
+   0.003
+  ],
+  "fresh_p2=0.05": [
+   0.396,
+   0.002
+  ],
+  "fresh_sherbrooke": [
+   0.704,
+   0.005
+  ],
+  "test_ideal": 0.818,
+  "top_scores": [
+   [
+    "linear/p2/lr0.1",
+    0.6283714771270752
+   ],
+   [
+    "linear/p2/lr0.03",
+    0.6253229975700378
+   ],
+   [
+    "linear/p2/lr0.01",
+    0.6181684136390686
+   ]
+  ]
+ },
+ "fixed n4/fixed": {
+  "best": "linear/p2/lr0.1",
+  "cnot_full": 12,
+  "top3": [
+   0.9225,
+   0.0773,
+   0.0002
+  ],
+  "ideal_const": {
+   "test": 0.9175,
+   "fresh": 0.9309
+  },
+  "test_main": [
+   0.767,
+   0.001
+  ],
+  "fresh_main": [
+   0.778,
+   0.001
+  ],
+  "fresh_p2=0.05": [
+   0.579,
+   0.001
+  ],
+  "fresh_sherbrooke": [
+   0.827,
+   0.001
+  ],
+  "test_ideal": 0.909,
+  "top_scores": [
+   [
+    "linear/p2/lr0.1",
+    0.7688196897506714
+   ],
+   [
+    "linear/p2/lr0.03",
+    0.7672866582870483
+   ],
+   [
+    "linear/p2/lr0.01",
+    0.7616912722587585
+   ]
+  ]
+ }
+}
